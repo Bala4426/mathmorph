@@ -6,7 +6,9 @@ Many manuscripts arrive with equations pasted as images or embedded as legacy Ma
 edited, searched or read by screen readers. MathMorph finds them, converts them to Word's own equation format
 (OMML) and leaves every other byte of the document untouched.
 
-![.NET 8](https://img.shields.io/badge/.NET-8-512BD4) ![Python 3.13](https://img.shields.io/badge/Python-3.13-3776AB) ![Windows](https://img.shields.io/badge/platform-Windows-0078D6) ![Tests](https://img.shields.io/badge/unit%20tests-99%20passing-2EA043)
+![.NET 8](https://img.shields.io/badge/.NET-8-512BD4) ![Python 3.13](https://img.shields.io/badge/Python-3.13-3776AB) ![Windows](https://img.shields.io/badge/platform-Windows-0078D6) ![Tests](https://img.shields.io/badge/unit%20tests-99%20passing-2EA043) ![License: MIT](https://img.shields.io/badge/license-MIT-yellow)
+
+![MathMorph Review screen: each original equation picture next to the converted Word equation and its LaTeX](docs/images/review.png)
 
 ## Highlights
 
@@ -80,3 +82,7 @@ powershell -File tests\Unit\run_tests.ps1               # tests
 ```
 
 Full usage, statuses and report formats: [docs/README.md](docs/README.md).
+
+## License
+
+[MIT](LICENSE)
