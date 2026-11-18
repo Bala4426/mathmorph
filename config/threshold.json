@@ -1,0 +1,6 @@
+{
+  "min_score": 0.95,
+  "basis": "fallback 0.95: the visual sample (60 items, seed 20261111, automated check, not human) had a MISMATCH at SSIM 0.811, and only 3 sampled items scored above it (0.841-0.861, all MATCH). That is too few to support a lower threshold. The data does NOT support auto-accepting at any SSIM observed (max 0.897).",
+  "sample_file": "out/verify/visual_check.csv",
+  "derived": "2026-11-11"
+}

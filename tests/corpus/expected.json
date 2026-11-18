@@ -1,0 +1,770 @@
+{
+  "docs": [
+    {
+      "file": "01_inline_display.docx",
+      "native_omath": 0,
+      "native_omathpara": 0,
+      "pictures": [
+        {
+          "part": "word/document.xml",
+          "para_index": 3,
+          "rid": "rId2",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\frac{a}{b}+\\frac{c}{d}=\\frac{ad+bc}{bd}"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 4,
+          "rid": "rId3",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "E=mc^2"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 6,
+          "rid": "rId4",
+          "kind": "inline",
+          "format": "jpeg",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 7,
+          "rid": "rId5",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\alpha+\\beta=\\gamma"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 7,
+          "rid": "rId6",
+          "kind": "inline",
+          "format": "jpeg",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "a_{n+1}=a_n+d"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 9,
+          "rid": "rId7",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\sum_{i=1}^{n} i=\\frac{n(n+1)}{2}"
+        }
+      ]
+    },
+    {
+      "file": "02_table_cells.docx",
+      "native_omath": 0,
+      "native_omathpara": 0,
+      "pictures": [
+        {
+          "part": "word/document.xml",
+          "para_index": 5,
+          "rid": "rId2",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "table",
+          "truth_latex": "\\int_0^1 x^2\\,dx=\\frac{1}{3}"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 7,
+          "rid": "rId3",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "table",
+          "truth_latex": "\\sqrt{a^2+b^2}"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 9,
+          "rid": "rId4",
+          "kind": "inline",
+          "format": "jpeg",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "table",
+          "truth_latex": "\\sin^2\\theta+\\cos^2\\theta=1"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 13,
+          "rid": "rId5",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "table",
+          "truth_latex": "\\int_{-\\infty}^{\\infty} e^{-x^2}\\,dx=\\sqrt{\\pi}"
+        }
+      ]
+    },
+    {
+      "file": "03_anchored.docx",
+      "native_omath": 0,
+      "native_omathpara": 0,
+      "pictures": [
+        {
+          "part": "word/document.xml",
+          "para_index": 1,
+          "rid": "rId2",
+          "kind": "anchor",
+          "format": "png",
+          "expected_category": "EXCLUDED",
+          "expected_reason": "anchored/floating",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "e^{i\\pi}+1=0"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 3,
+          "rid": "rId3",
+          "kind": "anchor",
+          "format": "jpeg",
+          "expected_category": "EXCLUDED",
+          "expected_reason": "anchored/floating",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\prod_{k=1}^{n} k=n!"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 5,
+          "rid": "rId4",
+          "kind": "anchor",
+          "format": "png",
+          "expected_category": "EXCLUDED",
+          "expected_reason": "anchored/floating",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "x^2+y^2=z^2"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 7,
+          "rid": "rId5",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\frac{\\partial f}{\\partial x}"
+        }
+      ]
+    },
+    {
+      "file": "04_altcontent.docx",
+      "native_omath": 0,
+      "native_omathpara": 0,
+      "pictures": [
+        {
+          "part": "word/document.xml",
+          "para_index": 3,
+          "rid": "rId2",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "choice",
+          "container": "body",
+          "truth_latex": "\\nabla\\cdot\\vec{E}=\\frac{\\rho}{\\epsilon_0}"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 3,
+          "rid": "rId2",
+          "kind": "vml",
+          "format": "png",
+          "expected_category": "EXCLUDED",
+          "expected_reason": "inside mc:Fallback",
+          "in_altcontent": "fallback",
+          "container": "body",
+          "truth_latex": "\\nabla\\cdot\\vec{E}=\\frac{\\rho}{\\epsilon_0}"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 6,
+          "rid": "rId3",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "choice",
+          "container": "textbox",
+          "truth_latex": "\\sqrt[3]{x+1}"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 8,
+          "rid": "rId3",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "EXCLUDED",
+          "expected_reason": "inside mc:Fallback",
+          "in_altcontent": "fallback",
+          "container": "textbox",
+          "truth_latex": "\\sqrt[3]{x+1}"
+        }
+      ]
+    },
+    {
+      "file": "05_vml_legacy.docx",
+      "native_omath": 0,
+      "native_omathpara": 0,
+      "pictures": [
+        {
+          "part": "word/document.xml",
+          "para_index": 3,
+          "rid": "rId2",
+          "kind": "vml",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\int_{-\\infty}^{\\infty} e^{-x^2}\\,dx=\\sqrt{\\pi}"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 4,
+          "rid": "rId3",
+          "kind": "vml",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\lim_{x\\to 0}\\frac{\\sin x}{x}=1"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 5,
+          "rid": "rId4",
+          "kind": "vml",
+          "format": "jpeg",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\log_b(xy)=\\log_b x+\\log_b y"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 6,
+          "rid": "rId5",
+          "kind": "vml",
+          "format": "png",
+          "expected_category": "EXCLUDED",
+          "expected_reason": "anchored/floating",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\binom{n}{k}=\\frac{n!}{k!(n-k)!}"
+        }
+      ]
+    },
+    {
+      "file": "06_ole_equations.docx",
+      "native_omath": 0,
+      "native_omathpara": 0,
+      "pictures": [
+        {
+          "part": "word/document.xml",
+          "para_index": 2,
+          "rid": "rId2",
+          "kind": "ole",
+          "format": "png",
+          "expected_category": "OLE_PREVIEW",
+          "expected_reason": "OLE Equation.3 PNG preview",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\lambda_{max}=\\frac{b}{T}"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 4,
+          "rid": "rId4",
+          "kind": "ole",
+          "format": "wmf",
+          "expected_category": "UNSUPPORTED_FORMAT",
+          "expected_reason": "WMF OLE preview",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": null
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 5,
+          "rid": "rId6",
+          "kind": "ole",
+          "format": "png",
+          "expected_category": "OLE_PREVIEW",
+          "expected_reason": "OLE Equation.3 PNG preview",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\mathbf{F}=m\\mathbf{a}"
+        }
+      ]
+    },
+    {
+      "file": "07_emf_wmf.docx",
+      "native_omath": 0,
+      "native_omathpara": 0,
+      "pictures": [
+        {
+          "part": "word/document.xml",
+          "para_index": 2,
+          "rid": "rId2",
+          "kind": "inline",
+          "format": "emf",
+          "expected_category": "UNSUPPORTED_FORMAT",
+          "expected_reason": "EMF picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": null
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 4,
+          "rid": "rId3",
+          "kind": "inline",
+          "format": "wmf",
+          "expected_category": "UNSUPPORTED_FORMAT",
+          "expected_reason": "WMF picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": null
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 6,
+          "rid": "rId4",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\overline{z}=a-bi"
+        }
+      ]
+    },
+    {
+      "file": "08_native_only.docx",
+      "native_omath": 4,
+      "native_omathpara": 2,
+      "pictures": []
+    },
+    {
+      "file": "09_no_equations.docx",
+      "native_omath": 0,
+      "native_omathpara": 0,
+      "pictures": []
+    },
+    {
+      "file": "10_logo_figure.docx",
+      "native_omath": 0,
+      "native_omathpara": 0,
+      "pictures": [
+        {
+          "part": "word/header1.xml",
+          "para_index": 0,
+          "rid": "rId1",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "EXCLUDED",
+          "expected_reason": "in header",
+          "in_altcontent": "none",
+          "container": "header",
+          "truth_latex": null
+        },
+        {
+          "part": "word/footer1.xml",
+          "para_index": 1,
+          "rid": "rId1",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "EXCLUDED",
+          "expected_reason": "in footer",
+          "in_altcontent": "none",
+          "container": "footer",
+          "truth_latex": null
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 1,
+          "rid": "rId2",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "EXCLUDED",
+          "expected_reason": "colorful logo/figure",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": null
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 4,
+          "rid": "rId3",
+          "kind": "inline",
+          "format": "jpeg",
+          "expected_category": "EXCLUDED",
+          "expected_reason": "taller than 1 inch",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": null
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 7,
+          "rid": "rId4",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\frac{d}{dx}\\left(\\frac{1}{x}\\right)=-\\frac{1}{x^2}"
+        }
+      ]
+    },
+    {
+      "file": "11_tracked_comments.docx",
+      "native_omath": 0,
+      "native_omathpara": 0,
+      "pictures": [
+        {
+          "part": "word/document.xml",
+          "para_index": 3,
+          "rid": "rId2",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\frac{a}{b}+\\frac{c}{d}=\\frac{ad+bc}{bd}"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 5,
+          "rid": "rId3",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\Delta x\\,\\Delta p\\geq\\frac{\\hbar}{2}"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 8,
+          "rid": "rId4",
+          "kind": "inline",
+          "format": "jpeg",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n"
+        }
+      ]
+    },
+    {
+      "file": "12_mixed_many.docx",
+      "native_omath": 1,
+      "native_omathpara": 0,
+      "pictures": [
+        {
+          "part": "word/document.xml",
+          "para_index": 3,
+          "rid": "rId2",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\frac{a}{b}+\\frac{c}{d}=\\frac{ad+bc}{bd}"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 5,
+          "rid": "rId3",
+          "kind": "inline",
+          "format": "jpeg",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\sum_{i=1}^{n} i=\\frac{n(n+1)}{2}"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 7,
+          "rid": "rId4",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\int_0^1 x^2\\,dx=\\frac{1}{3}"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 9,
+          "rid": "rId5",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 11,
+          "rid": "rId6",
+          "kind": "inline",
+          "format": "jpeg",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\nabla\\cdot\\vec{E}=\\frac{\\rho}{\\epsilon_0}"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 13,
+          "rid": "rId7",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 14,
+          "rid": "rId8",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "E=mc^2"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 14,
+          "rid": "rId9",
+          "kind": "inline",
+          "format": "jpeg",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\alpha+\\beta=\\gamma"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 14,
+          "rid": "rId10",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "a_{n+1}=a_n+d"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 15,
+          "rid": "rId11",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\sin^2\\theta+\\cos^2\\theta=1"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 15,
+          "rid": "rId12",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\mathbf{F}=m\\mathbf{a}"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 15,
+          "rid": "rId13",
+          "kind": "inline",
+          "format": "jpeg",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "\\overline{z}=a-bi"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 16,
+          "rid": "rId14",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "table",
+          "truth_latex": "\\sqrt{a^2+b^2}"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 18,
+          "rid": "rId15",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "table",
+          "truth_latex": "e^{i\\pi}+1=0"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 20,
+          "rid": "rId16",
+          "kind": "inline",
+          "format": "jpeg",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "table",
+          "truth_latex": "\\lim_{x\\to 0}\\frac{\\sin x}{x}=1"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 22,
+          "rid": "rId17",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "table",
+          "truth_latex": "\\prod_{k=1}^{n} k=n!"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 24,
+          "rid": "rId18",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "table",
+          "truth_latex": "\\log_b(xy)=\\log_b x+\\log_b y"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 26,
+          "rid": "rId19",
+          "kind": "inline",
+          "format": "jpeg",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "table",
+          "truth_latex": "\\lambda_{max}=\\frac{b}{T}"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 29,
+          "rid": "rId20",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "x^2+y^2=z^2"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 30,
+          "rid": "rId20",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "x^2+y^2=z^2"
+        },
+        {
+          "part": "word/document.xml",
+          "para_index": 31,
+          "rid": "rId21",
+          "kind": "inline",
+          "format": "png",
+          "expected_category": "CANDIDATE",
+          "expected_reason": "inline equation picture",
+          "in_altcontent": "none",
+          "container": "body",
+          "truth_latex": "x^2+y^2=z^2"
+        }
+      ]
+    }
+  ]
+}

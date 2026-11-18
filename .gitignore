@@ -1,0 +1,33 @@
+# Environments, downloaded tools and models (large; recreated by setup)
+.venv/
+tools/*
+!tools/OoxmlValidator/
+tools/OoxmlValidator/*
+!tools/OoxmlValidator/src/
+
+# Build outputs
+bin/
+gui_bin/
+obj/
+**/bin/
+**/obj/
+tests/Unit/bin_out/
+
+# Run output, work folders and real documents (never commit)
+out/
+output/
+input/
+config/proofread/
+*.docx
+!tests/corpus/*.docx
+~$*
+
+# Python
+__pycache__/
+*.pyc
+
+# Editors / OS
+.vs/
+.vscode/
+*.user
+Thumbs.db
